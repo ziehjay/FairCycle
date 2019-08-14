@@ -6,6 +6,11 @@
 
     <group android:checkableBehavior="single">
         <item
+            android:id="@+id/nav_startseite"
+            android:icon="@drawable/ic_startseite"
+            android:title="Startseite" />
+
+        <item
             android:id="@+id/nav_howtouse"
             android:icon="@drawable/ic_howto"
             android:title="How To FairCycle?" />
@@ -36,3 +41,4 @@
     </item>
 
 </menu>
+
