@@ -42,6 +42,8 @@ public class WelcomeActivity extends AppCompatActivity implements NavigationView
                 new StartseiteFragment()).commit();
         navigationView.setCheckedItem(R.id.nav_startseite);}
 
+
+
     }
     // callback für NaviView
     @Override
@@ -85,6 +87,12 @@ public class WelcomeActivity extends AppCompatActivity implements NavigationView
             super.onBackPressed();
         }
     }
+
+
+
+
+
+
 }
     /*// Menü zur Welcome Activity Page hinzufügen:
     // dafür onCreateOptionsMenu überschreiben &
@@ -95,3 +103,4 @@ public class WelcomeActivity extends AppCompatActivity implements NavigationView
         inflater.inflate(R.menu.drawer_menu, menu);
         return true;
     }*/
+
